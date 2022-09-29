@@ -1,0 +1,78 @@
+@import url('super_mario_256/SuperMario256.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    background-size: cover;
+}
+#header {
+    font-family: 'super mario 256';
+    font-size: 20px;
+    width: 100%;
+    margin-top:0;
+}
+img{
+    width:200px;
+    box-shadow: black 0px 0px 6px;
+    border-radius:10px;
+}
+#play-tut{
+    font-family: 'super mario 256';
+    color: yellow;
+    font-size: 18px;
+    transition: 0.5s all;
+}
+#play-tut:hover {
+    color:white;
+    text-decoration: underline;
+}
+#game_status {
+    background-color: black;
+    color: white;
+    font-family: 'super mario 256';
+    font-size: 19px;
+}
+#playbtn {
+    font-family: 'super mario 256';
+    transition: 0.5s all;
+    font-size: 18px;
+}
+#playbtn:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+.modal-dialog{
+    width:90%;
+    font-family: 'super mario 256';
+}
+.instruction_img {
+    width:45%;
+    /* display:inline-block; */
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.footer a {
+    text-decoration: none;
+    font-family: 'super mario 256';
+    transition: all 0.3s ease; 
+}
+.footer a:hover {
+    color: red;
+}
+.footer {
+    width: 100%;
+    /* position: fixed; */
+    bottom:0;
+    background-color: wheat;
+    font-family: 'Roboto Slab', serif;
+    margin-top:10px;
+}
+canvas {
+    margin-top : 10px;
+    /* margin-bottom:10px; */
+}
+video {
+    background: url('assets_img/game_console.png');
+    padding:25px;
+    background-size:cover;
+    background-position: center;
+}
